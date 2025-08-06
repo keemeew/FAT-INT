@@ -1,7 +1,7 @@
 # FAT-INT
 
 <p align="center">
-<img src="graphs/FAT_INT_thumbnail.jpg" alt="FAT-INT Overview" width="600">
+<img src="graphs/FAT_INT_thumbnail.jpg" alt="FAT-INT Overview" width="1000">
   
 In-band network telemetry (INT) is a promising technique to investigate the real-time state of networks. However, it inevitably generates considerable transmission overhead due to the operational feature of directly inserting telemetry data into the packet header. One of the widely used methods to alleviate such overhead is sampling, which requires a careful selection of sampling rates to control the trade-off between the monitoring accuracy and the transmission overhead. Meanwhile, INT needs to collect various kinds of telemetry items with varying frequency characteristics, leading to different sampling rates to satisfy the desired monitoring accuracy. To address these issues, we propose a frequency-aware item-wise INT scheme, FAT-INT, which uses a novel approach to consider the frequency characteristics of each telemetry item. To this end, we first design a frequency analysis method that examines the frequency characteristics and decides a proper sampling rate for each item. To reflect different sampling rates of each telemetry item, we devise an item-wise probabilistic sampling mechanism to collect items individually considering different sampling rates. Experimental results demonstrate that FAT-INT can reduce transmission overhead by up to 57.6% of the state of the art, while achieving comparable and robust monitoring accuracy under dynamic network environments.
 
